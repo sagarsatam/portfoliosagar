@@ -589,9 +589,10 @@ footer {
 }
 
 .post-thumb-description {
+  box-sizing: border-box;
   padding: 30px 20px 40px;
   position: relative;
-  width: 245px;
+  width: 100%;
 
   span {
     background: #14344e;
