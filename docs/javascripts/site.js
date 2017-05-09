@@ -161,3 +161,11 @@ function today() {
   var x = document.getElementById("myDay");
   x.innerHTML = "Happy " + dayNames[day.getDay()] + "!";
 }
+
+
+// MENU SANDWICH
+$(document).ready(function(){
+  $('#menu-icon').click(function(){
+    $(this).toggleClass('open');
+  });
+});

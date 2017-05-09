@@ -85,13 +85,13 @@ a {
     text-indent: -10000px;
     display: block; }
   .social-media .linkedin {
-    background: url(/portfoliosagar/images/social-media-linkedin.png) no-repeat; }
+    background: url(/images/social-media-linkedin.png) no-repeat; }
   .social-media .instagram {
-    background: url(/portfoliosagar/images/social-media-instagram.png) no-repeat; }
+    background: url(/images/social-media-instagram.png) no-repeat; }
   .social-media .pinterest {
-    background: url(/portfoliosagar/images/social-media-pinterest.png) no-repeat; }
+    background: url(/images/social-media-pinterest.png) no-repeat; }
   .social-media .behance {
-    background: url(/portfoliosagar/images/social-media-behance.png) no-repeat; }
+    background: url(/images/social-media-behance.png) no-repeat; }
 
 .wrapper {
   width: 100%; }
@@ -189,7 +189,7 @@ a {
   padding: 5px 20px; }
 
 #about-me .download-icon {
-  background: url("/portfoliosagar/images/icon-download.png") no-repeat;
+  background: url("/images/icon-download.png") no-repeat;
   background-position: 0 -18px;
   float: left;
   width: 20px;
@@ -268,7 +268,7 @@ a {
   width: 120px; }
   .show-more span {
     display: inline-block;
-    background: url("/portfoliosagar/images/arrow-show-more.png") no-repeat;
+    background: url("/images/arrow-show-more.png") no-repeat;
     background-position: 0 -40px;
     width: 40px;
     height: 40px;
@@ -607,7 +607,7 @@ footer {
   margin-left: 16%; }
 
 .arrow-down-wrapper {
-  /*background: url(/portfoliosagar/images/arrow-scroll-down.png) no-repeat;*/
+  /*background: url(/images/arrow-scroll-down.png) no-repeat;*/
   width: 40px;
   /*height: 0px;*/
   margin: auto;
@@ -670,52 +670,52 @@ footer {
   background-size: 100%; }
 
 .parallax.bg-pacman {
-  background-image: url(/portfoliosagar/images/bg-project-pacman.jpg); }
+  background-image: url(/images/bg-project-pacman.jpg); }
 
 .parallax.bg-persono {
-  background-image: url(/portfoliosagar/images/bg-project-persono.jpg); }
+  background-image: url(/images/bg-project-persono.jpg); }
 
 .parallax.bg-street-furniture {
-  background-image: url(/portfoliosagar/images/bg-project-street-furniture.jpg); }
+  background-image: url(/images/bg-project-street-furniture.jpg); }
 
 .parallax.bg-teapot {
-  background-image: url(/portfoliosagar/images/bg-project-teapot.jpg); }
+  background-image: url(/images/bg-project-teapot.jpg); }
 
 .parallax.bg-cadbury {
-  background-image: url(/portfoliosagar/images/bg-project-cadbury.jpg); }
+  background-image: url(/images/bg-project-cadbury.jpg); }
 
 .parallax.bg-barrister {
-  background-image: url(/portfoliosagar/images/bg-project-barrister.jpg); }
+  background-image: url(/images/bg-project-barrister.jpg); }
 
 .parallax.bg-gatsby {
-  background-image: url(/portfoliosagar/images/bg-project-gatsby.jpg); }
+  background-image: url(/images/bg-project-gatsby.jpg); }
 
 .parallax.bg-josmo {
-  background-image: url(/portfoliosagar/images/bg-project-josmo.jpg); }
+  background-image: url(/images/bg-project-josmo.jpg); }
 
 .parallax.bg-wearable {
-  background-image: url(/portfoliosagar/images/bg-project-wearable.jpg); }
+  background-image: url(/images/bg-project-wearable.jpg); }
 
 .parallax.bg-kin {
-  background-image: url(/portfoliosagar/images/bg-project-kin.jpg); }
+  background-image: url(/images/bg-project-kin.jpg); }
 
 .parallax.bg-museum {
-  background-image: url(/portfoliosagar/images/bg-project-museum.jpg); }
+  background-image: url(/images/bg-project-museum.jpg); }
 
 .parallax.bg-philips {
-  background-image: url(/portfoliosagar/images/bg-project-philips.jpg); }
+  background-image: url(/images/bg-project-philips.jpg); }
 
 .parallax.bg-save {
-  background-image: url(/portfoliosagar/images/bg-project-save.jpg); }
+  background-image: url(/images/bg-project-save.jpg); }
 
 .parallax.bg-talking-heads {
-  background-image: url(/portfoliosagar/images/bg-project-talking-heads.jpg); }
+  background-image: url(/images/bg-project-talking-heads.jpg); }
 
 .parallax.bg-terme {
-  background-image: url(/portfoliosagar/images/bg-project-terme.jpg); }
+  background-image: url(/images/bg-project-terme.jpg); }
 
 .parallax.bg-post-it {
-  background-image: url(/portfoliosagar/images/cover-page-post-it.jpg); }
+  background-image: url(/images/cover-page-post-it.jpg); }
 
 .project-wrapper,
 .post-wrapper {
@@ -790,7 +790,7 @@ footer {
     line-height: 1.5em;
     font-weight: 300; }
 
-/*Responsive iframe*/
+/* Responsive iframe */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -901,7 +901,7 @@ footer {
     display: block;
     width: 52px;
     height: 52px;
-    background-image: url(/portfoliosagar/images/icons-share-social-media.png); }
+    background-image: url(/images/icons-share-social-media.png); }
   .sharing-wrapper a p {
     text-indent: -10000px; }
   .sharing-wrapper a.linkedin {
@@ -920,14 +920,6 @@ footer {
     background-position: -178px -63px; }
   .sharing-wrapper a.twitter:hover {
     background-position: -8px -63px; }
-
-/* MENU SANDWICH */
-#menu-icon {
-  display: none;
-  width: 30px;
-  height: 30px;
-  background: url(../images/bt-sandwich-menu.png) center no-repeat;
-  padding: 0; }
 
 .accordion-head h2 {
   display: none; }
@@ -1011,6 +1003,9 @@ footer {
   header {
     position: absolute; }
 
+  .project-content header {
+    position: static; }
+
   .menu {
     width: 100%; }
 
@@ -1021,6 +1016,89 @@ footer {
   #menu-icon:hover {
     border: none; }
 
+  /* MENU SANDWICH > X | START */
+  #menu-icon {
+    width: 30px;
+    height: 22px;
+    position: relative;
+    margin: 4px auto;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer; }
+
+  #menu-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out; }
+
+  #menu-icon span:nth-child(1) {
+    top: 0px; }
+
+  #menu-icon span:nth-child(2), #menu-icon3 span:nth-child(3) {
+    top: 9px; }
+
+  #menu-icon span:nth-child(4) {
+    top: 18px; }
+
+  #menu-icon.open span:nth-child(1) {
+    top: 9px;
+    width: 0%;
+    left: 70%; }
+
+  #menu-icon.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+  #menu-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 9px; }
+
+  #menu-icon.open span:nth-child(4) {
+    top: 9px;
+    width: 0%;
+    left: 70%; }
+
+  #menu-center #menu-icon.open {
+    position: relative;
+    width: 100%; }
+
+  #menu-center #menu-icon.open ul {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); }
+
+  /* MENU SANDWICH > X | FINISH */
   nav ul, nav:active ul {
     display: none;
     position: absolute;
@@ -1040,10 +1118,10 @@ footer {
     padding: 10px 0;
     margin: 0; }
 
-  nav:hover ul {
+  /*nav:hover ul {
     display: block;
-    border: none; }
-
+    border: none;
+  }*/
   .menu-links .active,
   .menu-links .active:hover,
   .menu-links li:hover {
@@ -1163,31 +1241,6 @@ footer {
       left: 0; }
     .footer-keep-in-touch .social-media {
       float: left; } }
-/* BACK TO TOP */
-#back-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  z-index: 1;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  line-height: 1.666em;
-  background: orange;
-  color: #444;
-  cursor: pointer;
-  border: 0;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: opacity 0.2s ease-out;
-  opacity: 0; }
-
-#back-to-top:hover {
-  background: #e9ebec; }
-
-#back-to-top.show {
-  opacity: 1; }
-
 /* Portrait and Landscape */
 @media only screen and (max-width: 640px) {
   .box,
