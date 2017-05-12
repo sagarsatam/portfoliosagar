@@ -593,6 +593,7 @@ footer {
   padding: 30px 20px 40px;
   position: relative;
   width: 100%;
+  min-height: 350px;
 
   span {
     background: #14344e;
@@ -670,7 +671,7 @@ footer {
     padding: 40px 0;
     box-sizing: border-box;
     font-size: 0.937em;
-    line-height: 1.222em;
+    line-height: 1.3em;
   }
 
   .first-ball { background: #b9dae0; }
@@ -1167,45 +1168,31 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 640px) {
-  .project-content, 
-  .post-content {
-    width: 80%;
-  }
-
-  #menu-center .menu li {
-    display: block;
-  }
-
-  .parallax {
-    background-attachment: scroll;
-    height: 30%;
-  }
-
-  #contact-form {
-    width: 100%;
-    margin: 0;
-  }
-
-  footer .container {
-    padding-top: 60px;
-  }
-
-  .footer-rights .logo-svg {
-    margin-top: 30px;
-    left: 0;
-  }
-
-  .footer-rights small {
-    text-align: left;
-    margin-top: 70px;
-  }
-}
-
 @media only screen and (max-width:1150px) {
   
+  #menu-scroll {
+    width: 100%;
+    position: relative;
+  }
+
+  #menu-center {
+    width: 80%;
+    margin: auto;
+  }
+
   #menu-center .menu li {
     display: block;
+  }
+
+  #menu-open.open {
+    background-color: #14344e;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
   }
 
   .post-content header {
@@ -1222,6 +1209,10 @@ footer {
     li {
       width: 48%;
     }
+  }
+
+  .top-menu {
+    width: 100%;
   }
 
   .top-menu .social-media {
@@ -1249,7 +1240,6 @@ footer {
     border: none;
   }
 
-  /* MENU SANDWICH > X | START */
   #menu-icon {
     width: 30px;
     height: 22px;
@@ -1324,39 +1314,32 @@ footer {
     left: 70%;
   }
 
-  #menu-center #menu-icon.open {
-    position: relative;
-    width: 100%;
-  }
-
-  #menu-center #menu-icon.open ul {
+  #menu-open.open ul {
     display: block;
     border: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+    padding: 0;
+    padding-top: 17px;
+    height: 34px;
+    margin: auto;
+    text-align: center;
+    width: auto;
+
+
+    li {
+      background-color: #14344e;
+    }
+
+    li a {
+      color: #fff;
+    }
   }
-
-  /* MENU SANDWICH > X | FINISH */
-
 
   nav ul, nav:active ul { 
     display: none;
-    position: absolute;
     padding: 20px;
     background: #333;
     border: none;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 50px;
-    width: 100%;
-    height: 100%;
   }
 
   nav li {
@@ -1365,11 +1348,6 @@ footer {
     padding: 10px 0;
     margin: 0;
   }
-
-  /*nav:hover ul {
-    display: block;
-    border: none;
-  }*/
 
   .menu-links .active,
   .menu-links .active:hover,
@@ -1525,5 +1503,50 @@ footer {
     float: none;
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .project-content, 
+  .post-content {
+    width: 80%;
+  }
+
+  #menu-center .menu li {
+    display: block;
+  }
+
+  .parallax {
+    background-attachment: scroll;
+    height: 30%;
+  }
+
+  #contact-form {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer .container {
+    padding-top: 60px;
+  }
+
+  .footer-rights .logo-svg {
+    margin-top: 30px;
+    left: 0;
+  }
+
+  .footer-rights small {
+    text-align: left;
+    margin-top: 70px;
+  }
+
+  #myBtn {
+    display: none;
+  }
+
+  #contact-form #container {
+    max-width: 100%;
+  }
+
+  #contact-form .wufoo li {
+    width: 100%;
   }
 }
