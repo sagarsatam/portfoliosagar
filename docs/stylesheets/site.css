@@ -1091,7 +1091,8 @@ footer {
     #menu-open.open ul li {
       background-color: #14344e; }
     #menu-open.open ul li a {
-      color: #fff; }
+      color: #fff;
+      padding: 10px 8px; }
 
   nav ul, nav:active ul {
     display: none;
