@@ -167,5 +167,7 @@ function today() {
 $(document).ready(function(){
   $('#menu-icon').click(function(){
     $(this).toggleClass('open');
+    $('#menu-open').toggleClass('open');
   });
 });
+
